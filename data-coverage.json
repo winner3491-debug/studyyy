@@ -1,0 +1,25 @@
+{
+  "checked_on": "2026-10-23",
+  "requested_through": 2026,
+  "national": {
+    "available_through": 2025,
+    "value_2025": 54569,
+    "value_2026": null,
+    "source": "https://www.index.go.kr/unity/potal/main/EachDtlPageDetail.do?idx_cd=1610",
+    "additional_official_dataset": "https://www.data.go.kr/data/15129413/fileData.do",
+    "status_2026": "연간 집계 진행 중. 비교 가능한 공식 중간 신고 접수 수치 미확보."
+  },
+  "regional": {
+    "available_from": 2013,
+    "available_through": 2024,
+    "value_2025": null,
+    "value_2026": null,
+    "source": "https://www.police.go.kr/user/bbs/BD_selectBbsList.do?q_bbsCode=1117",
+    "catalog_notice": "2025년 경찰통계연보는 2026년 하반기 업데이트 예정으로 안내됨. 확인한 목록의 최신 공개본은 2024년."
+  },
+  "rules": [
+    "미확보 값은 null로 유지",
+    "이전 연도 값으로 채우지 않음",
+    "뉴스의 일부 지역·일부 기간 수치를 전국 연간 값과 혼합하지 않음"
+  ]
+}
